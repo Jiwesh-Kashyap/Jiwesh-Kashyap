@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NIT Rourkela</title>
+    <link rel = "stylesheet" href = "style2.css">
+    <script src="https://kit.fontawesome.com/b49dd91157.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id = "vdo">
+        <nav id="navbar">
+        <div class = nv1>
+            <ul id = "li1">
+            <a href=""><li>Admission</li></a>
+            <a href=""><li>Placement</li></a>
+            <a href=""><li>Career</li></a>
+            </ul>
+        </div>
+
+        <ul id= "li2">
+        <div class="nv3">
+            <a href="https://www.instagram.com/nitrourkela1961/" target = "_blank"><li><i class="fa-brands fa-instagram"></i></li></a>
+            <a href="https://x.com/nitrourkela?mx=2" target = "_blank"><li><i class="fa-brands fa-x-twitter"></i></li></a>
+            <a href="https://www.facebook.com/nitrkl1 " target = "_blank"><li><i class="fa-brands fa-facebook"></i></li></a>
+            <a href="https://www.linkedin.com/school/national-institute-of-technology-rourkela/" target = "_blank"><li><i class="fa-brands fa-linkedin"></i></li></a>
+            <a href="https://www.youtube.com/@NITROURKELA1961/videos" target = "_blank"><li><i class="fa-brands fa-youtube"></i></li></a>
+        </div>
+        </ul>
+        <ul id = "li3">
+            <a href=""><li>Webmail</li></a>
+            <a href=""><li>NITRis</li></a>
+            <a href=""><li>ParentConnect</li></a>
+        </ul>
+        </nav>
+        
+        <div class = "navbars2">
+        <div class = "full">
+            <div class = "image"><img id = "img1" src = "nitr logo.png" type = "image/png" alt = "National Institute of Technology Rourkela"></div>
+            <div class = "heading"><h2><b>National Institute of Technology Rourkela</b></h2></div>
+            <div class="imp"><h3>An Institute of National Importance</h3></div>
+            
+            <div class="search"><label for="Search">
+            <input type="search" placeholder="Search">
+         </label>
+         </div>
+        </div>
+        
+        <nav class ="nav2">
+            <div class = "nv2">
+            
+            <div class = "n2" id = "i1"><a href = ""><li id = "l1"><i class="fa-solid fa-house"></i></li></a></div>
+            <div class = "n2" id = "i2"><a href=""><li id = "l2">Institute <i class="fa-solid fa-angle-down"></i></li></a>
+            
+            <div class = "n2"  id = "Institute">
+                <ul id = "About NITR">
+                <div class = "About">
+                    <div class = "x" id = "item1"><li><b><u>ABOUT NIT-R</u></b></li></div>
+                    <hr> 
+                    <div class = "x" id = "item2"><li><a href="">> Welcome to NITR</a></li></div>
+                    <div class = "x" id = "item3"><li><a href="">> Vision and Mission</a></li></div>
+                    <div class = "x" id = "item4"><li><a href="">> Former Directors</a></li></div>
+                    <div class = "x" id = "item5"><li><a href="">> Ranking and Recognition</a></li></div>
+                    <div class = "x" id = "item6"><li><a href="">> Campus and Facilities</a></li></div>
+                    <div class = "x" id = "item7"><li><a href="">> Gallery</a></li></div>
+                    <div class = "x" id = "item8"><li><a href="">> Contact Us</a></li></div>
+                </div>
+            </ul>
+            <ul id = "Administration">
+            <div class = "Administration">
+                <div id = "a1"><li><b><u>ADMINISTRATION</u></b></li></div>
+                <hr id = "hr2">
+                <div id = "a2"><a href=""><li>> Council for NITs</li></a></div>
+                <div id = "a3"><a href=""><li>> The Senate</li></a></div>
+                <div id = "a4"><a href=""><li>> Chairperson</li></a></div>
+                <div id = "a5"><a href=""><li>> Director</li></a></div>
+                <div id = "a6"><a href=""><li>> NITR Administration</li></a></div>
+                <div id = "a7"><a href=""><li>> Finance Committee</li></a></div>
+                <div id = "a8"><a href=""><li>> Buildings and Works Committee</li></a></div>
+            </div>
+            </ul>
+            <ul id = "KeyDocuments">
+               <div class = "Documents"> 
+                <div id = "b1"><li><b><u>KEY DOCUMENTS</u></b></li></div>
+                <hr>
+                <div id = "b2"><a href=""><li>> Act and statutes</li></a></div>
+                <div id = "b3"><a href=""><li>> Minutes of NIT Council</li></a></div>
+                <div id = "b4"><a href=""><li>> Minutes of BOG</li></a></div>
+                <div id = "b5"><a href=""><li>> Minutes of FC</li></a></div>
+                <div id = "b6"><a href=""><li>> Minutes of BWC</li></a></div>
+                <div id = "b7"><a href=""><li>> Minutes of Senate</li></a></div>
+                <div id = "b8"><a href=""><li>> Rules and Regulations</li></a></div>
+                <div id = "b9"><a href=""><li>> Annual Reports</li></a></div>
+               </div>
+            </ul>
+            <ul id = "Accreditation">
+            <div class = "Accreditation"> 
+                <div id = "c1"><li><b><u>ACCREDITATION</u></b></li></div>
+                <hr>
+                <div id = "c2"><a href=""><li>> Data for NIRF</li></a></div>
+                <div id = "c3"><a href=""><li>> Data for NBA</li></a></div>
+                <div id = "c4"><a href=""><li>> Data for ARIIA</li></a></div>
+                <div id = "c5"><a href=""><li>> Data for QS</li></a></div>
+            </div>
+            </ul>
+            </div>
+        </div>
+            <div class = "n2"  id = "i3"><a href=""><li id= "l3">Academics <i class="fa-solid fa-angle-down"></i></li></a></div>
+            <div class = "n2"  id = "i4"><a href=""><li id = "l4">Students <i class="fa-solid fa-angle-down"></i></li></a></div>
+            <div class = "n2"  id = "i5"><a href=""><li id = "l5">Faculty and Staff<i class="fa-solid fa-angle-down"></i></li></a></div>
+            <div class = "n2"  id = "i6"><a href=""><li id = "l6">Research <i class="fa-solid fa-angle-down"> </i></li></a></div>   
+            <div class = "n2"  id = "i7"><a href=""><li id = "l7">Alumni <i class="fa-solid fa-angle-down"> </i></li></a></div>
+            <div class = "n2"  id = "i8"><a href=""><li id = "l8">Resources <i class="fa-solid fa-angle-down"> </i></li></a></div>
+            
+        </div>
+    </nav>
+    </div>
+        <video autoplay muted loop>
+            <source src = "hero.mp4" type = "video/mp4" alt = "main building of N I T Rourkela">
+        </video>
+    </div>
+
+
+    <div class = "Abt">
+    <h1>About the Institute</h1>
+    <br>
+    <p>NIT Rourkela is one of the premier national level institutions for technical education in the country and is funded by the Government of India. The Government of India has elevated the Regional Engineering College, Rourkela to a university under the name of National Institute of Technology, Rourkela.
+
+        The main objective of the Institute is to produce quality Engineers and Scientists in Graduate and Post-Graduate levels in various branches of Engineering and Science. The Institute is managed by the Board of Governors of National Institute of Technology (Rourkela) Society..<h3><a href="">Learn More <i class="fa-solid fa-arrow-right"></i></a></h3>
+    <br>
+    <hr id = "hr1">
+    <br>
+    <div class = "visAnd">
+        <div id = "vision"><h2>Vision</h2>
+            <br>
+<p>To become an internationally acclaimed institution of higher learning that will serve as a source of knowledge and expertise for the society and be a preferred destination for undergraduate and graduate studies.</p>
+        </div>
+        <div id = "mission"><h2>Mission</h2>
+            <br>
+<p>To advance and spread knowledge in the area of science and technology leading to creation of wealth and welfare of humanity.</p>
+        </div>
+    </div> 
+    </div>   
+</body>
+<style>
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+.full{
+    display: grid;
+    margin-top:50px;
+    grid-template-rows: 40px 30px;
+    justify-items: center;
+    align-items:center ;
+    grid-template-columns: 100px 500px 1fr;
+    position: absolute;
+    margin-left:90px;
+    width: 100vw;
+    height:100px;
+}
+.image{
+    display: flex;
+    justify-self: left;
+    align-self:stretch;
+    grid-area:1 / 1 / 2 / 2;
+}
+.imp{
+    grid-area: 2 / 2 / 3 / 3;
+    justify-self:left;
+}
+.heading{
+    justify-self:left ;
+}
+.search{
+    justify-self: left;
+}
+.nv3{
+    z-index: +1000;
+}
+.nv1{
+    z-index:+100;
+}
+
+.full label{
+    margin-left: 250px;
+    margin-top:50px;
+}
+.full label input{
+    height:30px;
+    width:250px;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.444);
+    background-color: hsla(240, 4%, 5%, 0.333);
+    display:inline-block;
+    color:rgb(255, 255, 255);
+}
+.navbars2{
+    display:flex;
+    flex-direction: column;
+}
+.full h3{
+    margin-top:10px;
+    font-family:serif;
+}
+.full label ::placeholder{
+    color:white;
+    margin-left: 10px;
+}
+#img1{
+    height: 70px;
+    width: 70px;
+    position:absolute;
+}
+
+.heading h2{
+    color:white;
+    font-size: 23px;
+    font-family: sans-serif, Geneva, Tahoma, sans-serif;
+    
+}
+.imp h3{
+    color:white;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Geneva, Tahoma, sans-serif;
+    
+}
+#vdo video{
+    width:100vw;
+    position:relative;
+    z-index: -100; 
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(192, 94, 65);
+    box-shadow: 0px 0px 50px black,0px 40px 50px black,0px 80px 50px black ;
+    position: absolute;
+    width:100vw;
+    height:40px;
+}
+#navbar li{
+    float:left;
+    padding:10px;
+    list-style-type: none;
+    color:white;
+}
+#navbar li:hover{
+    color: rgb(216, 216, 216);
+    cursor:pointer;
+}
+#li1{
+    font-family: sans-serif;
+}
+#li1 a{
+    color:white;
+    text-decoration: none;
+}
+#li3{
+    font-family: sans-serif;
+}
+.nav2{
+    width:80vw;
+    height:40px;
+    background-color: hsla(0, 1%, 19%, 0.431);
+}
+.nv2 div>li{
+    list-style-type: none;
+}
+.nv2 div{
+    display: flex;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+.nav2 div>a>li{
+   list-style-type: none;
+}
+.nav2 div>a{
+    text-decoration: none;
+    color:white;
+}
+.nv2{
+    display:grid;
+    grid-template-columns: 100px 100px 150px 100px 150px 100px 100px 150px;
+    grid-template-rows: 40px;
+    margin-top:140px;
+    justify-content: space-around;
+    margin-left:10vw;
+    border: 3px solid white;
+    width:80vw;
+    background-color: rgba(0, 0, 0, 0.351);
+    position:sticky;
+    font-family:Montserrat,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav2 a:hover{
+    text-shadow:1px 1px 3px rgba(255, 255, 255, 0.547);    
+}
+.nv2 .n2:hover{
+    background-color: rgb(255, 112, 40);
+    transition: 0.4s;
+}
+
+#AboutNITR{
+    float: left;
+    display: inline;
+    list-style-type:none;
+}
+#Administration{
+    float: left;
+    display: inline;
+    list-style-type:none;
+}
+
+.nv2 #Institute{
+    transform: translate(347px, 247px);
+    background-color: white;
+    color:black;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: absolute;
+    z-index: +100;
+    height:450px;
+    width:90vw;
+    visibility: hidden;
+    border-radius: 20px;
+}
+.nv2 #i2:hover #Institute{
+    visibility: visible;
+    transition: all ;
+}   
+.translate{
+    transform:height(0px)}
+
+#Institute .About div>li{
+    font-size: 0.9em;
+    font-family: Montserrat, sans-serif;
+}
+#Institute .About #item1>li{
+    font-family:'Times New Roman', Times, serif;
+    font-size:1.1em;
+}
+.n2 .About{
+    height:450px;
+    margin-left:0px;
+    display:grid;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: 20vw;
+}
+.nv2 hr{
+    color: rgb(255, 146, 12);
+}
+.n2 .About a{
+    color:black;
+    text-decoration: none;
+}
+.n2 .Administration a {
+    color:black;
+    text-decoration: none;
+}
+
+.n2 .Accreditation a{
+    color:black;
+    text-decoration: none;
+}
+.n2 .About a:hover{
+    text-shadow:2px 2px 3px rgba(0, 0, 0, 0.618);
+}
+.n2 .Administration a:hover{
+    text-shadow:2px 2px 3px rgba(0, 0, 0, 0.618);
+}
+.n2 .Accreditation a:hover{
+    text-shadow:2px 2px 3px rgba(0, 0, 0, 0.618);
+}
+.n2 .Documents a:hover{
+    text-shadow:2px 2px 3px rgba(0, 0, 0, 0.618);
+}
+.n2 .Administration{
+    height:450px;
+    margin-left:0px;
+    display:grid;
+    justify-content: center;
+    grid-template-rows:repeat(8, 1fr);
+    grid-template-columns:15vw;
+}
+#Institute .Administration div{
+    font-size:0.9em;
+    width:15vw;
+}
+ .Administration #a1>li{
+    font-size:1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+#Institute .Documents {
+    height:450px;
+    margin-left:0px;
+    display:grid;
+    justify-content: left;
+    grid-template-rows:repeat(9, 1fr);
+    grid-template-columns:20vw;
+}
+#Institute .Documents div>a>li{
+    color:black;
+    font-size: 0.9em;
+}
+#Institute .Documents #b1>li{
+    font-size:1.1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.n2 .Accreditation{
+    height:300px;
+    margin-left:0px;
+    display:grid;
+    justify-content: left;
+    grid-template-rows:repeat(4, 1fr);
+    grid-template-columns:20vw;
+    margin-bottom: 160px;
+}
+.n2 .Accreditation #c1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}
+.n2 .Accreditation div>a>li{
+    font-size:0.9em;
+}
+#vdo{
+    width:100vw;
+}
+.Abt{
+    width:100vw;
+    margin-top: 20px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: rgb(192, 94, 65);
+    color:white;
+}
+.Abt p{
+    font-family: Montserrat;
+}
+.Abt h1,h2{
+    font-family: sans-serif;
+}
+.Abt a{
+    color:rgb(148, 224, 217);
+}
+.Abt #hr1{
+    color:gray;
+    width:95vw;
+}
+.Abt .visAnd{
+    display:flex;
+    flex-direction: row;
+}
+#vision{
+    width:80%;
+    padding-right:30px;
+}
+</style>
+</html>
