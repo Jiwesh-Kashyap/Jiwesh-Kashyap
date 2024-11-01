@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+void sort(int array[], int size){
+   int z;
+   for(int i = 0; i<size; i++){
+      for(int j = 0; j<size - i - 1; j++){
+         if(array[j]>array[j+1]){
+            z = array[j];
+            array[j] = array[j+1];
+            array[j+1] = z;
+         }
+      }
+}
+}
+
+void printArray(int array[], int size){
+   int s;
+   for(int s = 0;s < size; s++){
+      printf("%d ", array[s]);
+   }
+}
+
+
+int main(){
+   
+   int array[] = {9,1,8,7,3,6,4,5};
+   int size = sizeof(array)/sizeof(array[0]);
+   sort(array, size);
+   printArray(array, size);
+
+   return 0;
+}
