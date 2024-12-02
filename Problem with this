@@ -1,0 +1,40 @@
+import javax.swing.JOptionPane;
+
+
+public class Main{
+public static void main(String args[]){
+    //JOptionPane.showMessageDialog(null, "This is some useless data", "lol", JOptionPane.INFORMATION_MESSAGE);
+    int ans = JOptionPane.showConfirmDialog(null, "Is this yours?", "Confirmation", JOptionPane.YES_NO_CANCEL_OPTION);
+    switch(ans){
+        case 1: JOptionPane.showMessageDialog(null, "This ain't yours", "Message", JOptionPane.PLAIN_MESSAGE);
+        break;
+        case 0: JOptionPane.showMessageDialog(null, "You may take it","Message", JOptionPane.PLAIN_MESSAGE);
+        break;
+        case 2: JOptionPane.showMessageDialog(null, "How dare you to cancel this?", "Its about audacity", JOptionPane.PLAIN_MESSAGE);
+        break;
+        default: 
+        while (true) { 
+           int ans1 = JOptionPane.showConfirmDialog(null, "Is this yours?", "Confirmation", JOptionPane.YES_NO_CANCEL_OPTION);
+           switch(ans1){
+            case 1: JOptionPane.showMessageDialog(null, "This ain't yours", "Message", JOptionPane.PLAIN_MESSAGE);
+            break;
+            case 0: JOptionPane.showMessageDialog(null, "You may take it","Message", JOptionPane.PLAIN_MESSAGE);
+            break;
+            case 2: JOptionPane.showInputDialog("How dare you to cancel this?");
+            break;
+            default: 
+            while (true) { 
+                JOptionPane.showConfirmDialog(null, "Is this yours?", "Confirmation", JOptionPane.YES_NO_CANCEL_OPTION);
+               
+            }
+        }
+    }
+    /*String name = JOptionPane.showInputDialog("What is your name?");
+    if(gender == male){
+        JOptionPane.showMessageDialog("Hello bro, your name is "+name, name);
+    }
+    */
+}
+    System.out.println("End of code");
+}
+}
