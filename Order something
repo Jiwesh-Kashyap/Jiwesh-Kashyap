@@ -1,0 +1,63 @@
+
+import java.awt.Menu;
+import javax.swing.JOptionPane;
+
+class ItemException extends Exception{
+    ItemException(String message){
+        super(message);
+    }
+}
+
+public class Main{ 
+    public static String[] menuList = {
+        "Pizza",
+        "Burger",
+        "Ice Cream",
+        "Soup"
+    };
+    
+    public static boolean isValidMenuItem(String item){
+    for(String menuItem : menuList){
+        if(menuItem.equalsIgnoreCase(item)){
+            return true;
+        }
+    }
+    return false;
+    }
+    public static String displayMenu(){
+        StringBuilder menu = new StringBuilder("Available items are: \n\n");
+        for (int i = 0; i < menuList.length ; i++) {
+            menu.append(i+1).append(menuList[i]).append("\n");
+        }
+        return menu.toString();
+    }
+    public static void main(String[] args) {
+        while(true){
+            try{
+            String order = JOptionPane.showInputDialog(null,"Menu of DA PLAZA is here: \n1.Pizza \n2.Burger \n3.Ice Cream \n4.Soup\n What would you like to order?!",
+                                    "Order Items", JOptionPane.QUESTION_MESSAGE);
+            
+            if (order == null){ //Check if user clicked cancel or closed the dialog box
+                JOptionPane.showMessageDialog(null, "Your order is cancelled.", "Order Status", JOptionPane.INFORMATION_MESSAGE);
+            break;
+            }
+            if(order.isEmpty()){ // If user entered nothing
+                JOptionPane.showMessageDialog(null, "You ordered nothing.", "Order Status", JOptionPane.INFORMATION_MESSAGE);
+            break;
+            }
+            if(!isValidMenuItem(order)){
+                throw new ItemException("You are dumb! This item isn't even in the menu.");
+            
+            }
+            JOptionPane.showMessageDialog(null, 
+                    "Thank you for ordering " + order + "!\nYour order will be ready soon.",
+                    "Order Successful",
+                    JOptionPane.INFORMATION_MESSAGE);
+            break;
+        }
+        catch(Exception e){
+            JOptionPane.showMessageDialog(null, e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+        }
+    }
+    }
+}
