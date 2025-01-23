@@ -1,0 +1,65 @@
+import java.util.Scanner;
+
+public class Divisiblity {
+    public static void main(String[] args) {
+        System.out.println("Enter the input: ");
+        Scanner sc = new Scanner(System.in);
+        int input = sc.nextInt();
+
+        if(sumOfDigits(input)%3 == 0){
+            System.out.println("Input is divisible by 3");
+        }
+        else System.out.println("Input is NOT divisible by 3");
+        
+        divisibleBy7(input);
+        divisibleBy11(input);
+        
+    }
+    public static int sumOfDigits(int input){
+        int sum = 0;
+        while(input != 0){
+            int k = input%10;
+            sum += k;
+            input /= 10;
+        }
+        return sum;
+    }
+    public static void divisibleBy7(int input){
+        int z = input%10;
+        int y = input/10;
+        int diff = y - 2*z;
+        if(diff%7 == 0){
+            System.out.println("Input is divisible by 7");
+        }
+        else System.out.println("Input is NOT divisible by 7");
+    } 
+    public static void divisibleBy11(int input){
+        int digitCount = 0;
+        while(input != 0){
+            digitCount++;
+            input /= 10; 
+        }
+
+        int[] array = new int[digitCount];
+        while(input != 0){
+            for(int i = 0; i < digitCount; i++){
+                int k = input%10;
+                input /= 10;
+                array[i] = k;
+            }
+        }
+
+        int evenSum = 0;
+        int oddSum = 0;
+        for(int i = 0; i < digitCount; i+=2){
+            evenSum += array[i];
+        }
+        for(int i = 1; i<digitCount; i+=2){
+            oddSum+= array[i];
+        }
+        if(oddSum>=evenSum && (oddSum - evenSum)%11 == 0) System.out.println("Input IS divisible by 11");
+        else if(oddSum<evenSum && (oddSum - evenSum)%11 == 0) System.out.println("Input IS divisible by 11");
+        else if(oddSum == evenSum) System.out.println("Input IS divisible by 11");
+        else System.out.println("Input is NOT divisible by 11");
+    }
+}
