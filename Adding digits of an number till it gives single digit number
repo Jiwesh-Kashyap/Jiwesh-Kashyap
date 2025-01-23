@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class AddingDigits {
+    public static void main(String[] args){
+        System.out.println("enter the input: ");
+        Scanner sc = new Scanner(System.in);
+        int input = sc.nextInt();
+        int k, sum = 0;
+        
+        while(digitCount(input)>1){
+        sum = 0;
+        while(input > 0){
+            k = input%10;
+            sum = sum+k;
+            input /= 10;
+        }
+        System.out.println(sum);
+        input = sum;
+    }
+    }
+    public static int digitCount(int n){
+        int digitCount = 0;
+        while(n > 0){
+            digitCount++;
+            n /= 10;
+        }
+        return digitCount;
+    }
+}
