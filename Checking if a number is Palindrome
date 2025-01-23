@@ -1,0 +1,52 @@
+import java.util.Scanner;
+
+public class Palindrome{
+
+    public Palindrome() {
+        
+    }
+    
+    public static void main(String[] args) {
+        System.out.println("Enter input: ");
+        Scanner sc = new Scanner(System.in);
+        int input;
+        input = sc.nextInt();
+        checkPalindrome(input);
+
+
+        if(checkPalindrome(input) == 0){
+            System.out.println("Is a palindrome");
+        }
+        else{
+            System.out.println("Is not a palindrome");
+        }
+        // int index = checkPalindrome(input);
+
+        // if(index == 1){
+        //     System.out.println("Not a palindrome");
+        // }
+        // else{
+        //     System.out.println("Is a palindrome");
+        // }
+       
+    }
+    public static int checkPalindrome(int input){
+        int j = 0;
+        int temp = input;
+        while(temp != 0){
+            j++;
+            temp/= 10;    //number of digits in input
+        }
+        int[] array = new int[j];
+        for(int i = 0; i< j ; i++){
+            array[i] = input%10;
+            input /= 10;
+        }
+        for(int i = 0; i < j/2; i++){
+            if(array[i] != array[j - i -1]){
+                return 1;
+            }
+        }
+        return 0;
+    }
+}
