@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class PerfectNumber {
+    public static void main(String[] args) {
+        System.out.println("Enter the input: ");
+        Scanner sc = new Scanner(System.in);
+        int input = sc.nextInt();
+        int sum = 1;    // 1 is always the divisor
+
+        for(int i = 2; i<Math.sqrt(input); i++){
+            if(input%i == 0){
+                sum += i;
+                if(i != input/i){
+                    sum += input/i;
+                            }
+        }
+            
+    }
+    if(sum == input){
+        System.out.println("The input IS a perfect number");
+    }
+    else{
+        System.out.println("Not a perfect number");
+    }
+}
+}
