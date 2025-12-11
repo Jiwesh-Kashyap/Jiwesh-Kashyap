@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Jiwesh-Kashyap
 - 👀 I’m interested in Computer Science
-- 🌱 I’m currently learning java
+- 🌱 I’m currently learning DSA and Web development
 
 <!---
 Jiwesh-Kashyap/Jiwesh-Kashyap is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
